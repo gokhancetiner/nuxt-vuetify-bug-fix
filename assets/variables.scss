@@ -1,5 +1,14 @@
 // assets/variables.scss
 
+$grid-breakpoints: (
+  "xs": 0px,
+  "sm": 800px,
+  "md": 1050px,
+  "lg": 1240px,
+  // Desktop gets a 16dp reduction
+  "xl": 1920px,
+  // https://material.io/guidelines/layout/responsive-ui.html#responsive-ui-breakpoints
+);
 @import url("https://fonts.googleapis.com/css?family=PT+Sans:300,400,500,700|Material+Icons");
 $body-font-family: "PT Sans", sans-serif;
 /* @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Material+Icons");
